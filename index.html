@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas Segitiga</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h2> Menghitung Luas Segitiga</h2>
+    <i class='bx bx-shape-triangle bx-tada bx-rotate-90' ></i>
+<div class="all">
+    <label for="">Alas segitiga</label><br>
+    <input type="number" id="alas"><br>
+    <label for="">Tinggi segitiga</label><br>
+    <input type="number" id="tinggi"><br>
+    <button id="hitung">Hitung</button>
+<div class="output">
+    <div id="output"></div>
+</div>
+</div>
+    <script>
+        const alas = document.getElementById('alas')
+        const tinggi = document.getElementById('tinggi')
+        const hitung = document.getElementById('hitung')
+        const output = document.getElementById('output')
+        hitung.addEventListener('click', function(){
+        let a = alas.value
+        let t = tinggi.value
+        let l = 0.5*a*t
+        output.innerHTML = `Diketahui sebuah segitiga memiliki alas ${a}cm dan memiliki tinnggi ${t}cm,jadi luas dari segitiga tersebut adalah ${l}cm2`;})  
+    </script>
+  
+</body>
+</html>

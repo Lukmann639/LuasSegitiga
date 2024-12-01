@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(164, 203, 207);
+}
+ 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.all label {
+    margin-left: 46%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.all input{
+    padding: 10px 20px 10px 20px;
+    margin-left: 43%;
+    border-radius: 5px;
+    display: block;
+
+}
+
+.all button {
+    margin-left: 48%;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(74, 110, 125);
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #001F3F;
+}
+
+.output {   
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+i {
+   margin-left: 48.5%;
+font-size: 50px;
+}
